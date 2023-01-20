@@ -11,7 +11,7 @@ public class Ejercicio2{
 }
 class Coche{
     int puertas = 0;
-public void AgregarPuertas(){
+    public void AgregarPuertas(){
     this.puertas++;
 }
 }
