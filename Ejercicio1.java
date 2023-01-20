@@ -2,14 +2,13 @@ class Main {
 
     public static void main(String[] args) {
 
-        int num1 = 7, num2 = 2, num3 = 6, suma = 0;
-        System.out.println("Numero1 = " + num1);
-        System.out.println("Numero2 = " + num2);
-        System.out.println("Numero3 = " + num3);
+        int numero1 = 20;
+        System.out.println(numero1);
 
-        suma = num1 + num2 + num3;
-        System.out.println("Resultado = " + suma);
+        numero1 = 45;
+        System.out.println(numero1);
 
+        int[] arrayDeNumeros = {1, 2, 3, 4};
+        System.out.println(arrayDeNumeros[0]);
     }
-
 }
