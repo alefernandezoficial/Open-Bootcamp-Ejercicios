@@ -1,17 +1,27 @@
 public class Ejercicio2{
     public static void main(String[] args) {
+        suma(20, 40, 60);
+
         Coche miCoche = new Coche();
-        miCoche.AgregarPuertas();
-        miCoche.AgregarPuertas();
-        miCoche.AgregarPuertas();
-        miCoche.AgregarPuertas();
-        miCoche.AgregarPuertas();
-    System.out.println(miCoche.puertas);
+
+        miCoche.sumarPuertas();
+        miCoche.sumarPuertas();
+        System.out.println("El numero de puertas es: " + miCoche.numeroDePuertas);
+
+    }
+
+    public static void suma(int a, int b, int c){
+        int resultado;
+        resultado = a + b + c;
+        System.out.println(resultado);
     }
 }
-class Coche{
-    int puertas = 0;
-    public void AgregarPuertas(){
-    this.puertas++;
-}
+
+class Coche {
+    public int numeroDePuertas = 4;
+
+    public void sumarPuertas(){
+
+        this.numeroDePuertas++;
+    }
 }
