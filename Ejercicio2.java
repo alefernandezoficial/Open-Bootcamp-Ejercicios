@@ -1,4 +1,4 @@
-public class Ejercicio2{
+class Ejercicio2{
     public static void main(String[] args) {
         suma(20, 40, 60);
 
