@@ -11,27 +11,27 @@ public static void main(String[] args) {
         System.out.println("variable numeroIf es 0");
     }
 
-    // NumeroWhile
+    // While
     int numeroWhile = 1;
     while(numeroWhile < 3){
         numeroWhile++;
-        System.out.println("variable numeroWhile ahora: " + numeroWhile);
+        System.out.println("variable numeroWhile es: " + numeroWhile);
     }
 
-    // NumeroDoWhile
+    // Do While
     int numeroDoWhile = 0;
     do{
         numeroDoWhile++;
-        System.out.println("variable numeroDoWhile ahora: " + numeroDoWhile);
+        System.out.println("variable numeroDoWhile es: " + numeroDoWhile);
     }while(numeroDoWhile < 3);
 
-    // numeroFor
+    // For
     for(int numeroFor = 0; numeroFor <= 5; numeroFor++){
-        System.out.println("La variable numeroFor ahora vale: " + numeroFor);
+        System.out.println("La variable numeroFor es: " + numeroFor);
     }
-    
+
     // Switch
-    String estacion = "otoño";
+    String estacion = "primavera";
     switch(estacion){
         case "verano":
             System.out.println("Es verano");
